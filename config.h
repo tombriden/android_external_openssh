@@ -1600,4 +1600,4 @@
 
 #define _PATH_PRIVSEP_CHROOT_DIR SSHDIR "/empty"
 
-#define _PATH_SSH_PROGRAM "/system/bin/sftp"
+#define _PATH_SSH_PROGRAM "/system/bin/ssh"
