@@ -492,7 +492,6 @@ auth_secure_path(const char *name, struct stat *stp, const char *pw_dir,
 	char buf[PATH_MAX], homedir[PATH_MAX];
 	char *cp;
 	int comparehome = 0;
-	struct stat st;
 
 	if (realpath(name, buf) == NULL) {
 		snprintf(err, errlen, "realpath %s failed: %s", name,

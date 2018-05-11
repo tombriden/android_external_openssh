@@ -64,7 +64,6 @@ int
 pty_allocate(int *ptyfd, int *ttyfd, char *namebuf, size_t namebuflen)
 {
 	/* openpty(3) exists in OSF/1 and some other os'es */
-	char *name;
 	int i;
 
 	i = openpty(ptyfd, ttyfd, NULL, NULL, NULL);
